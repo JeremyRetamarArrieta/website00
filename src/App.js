@@ -4,6 +4,7 @@ import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Link from '@material-ui/core/Link';
+import Header from './Header.js';
 import './App.css';
 
 
@@ -23,10 +24,11 @@ function Copyright() {
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <Container maxWidth="sm">
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
-          We provide Software contract services, cloud buisness infrastructure and data analytics solutions.  
+          Contact us today for a free quote:  
         </Typography>
         <Copyright />
       </Box>
