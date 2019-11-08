@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Link from '@material-ui/core/Link';
-import Header from './Header.js';
+import UserForm from './components/UserForm'
+import AppHeader from './components/appheader/AppHeader.js';
 import './App.css';
 
 
@@ -24,7 +24,8 @@ function Copyright() {
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <AppHeader></AppHeader>
+      <UserForm />
       <Container maxWidth="sm">
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
