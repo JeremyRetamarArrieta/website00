@@ -28,7 +28,7 @@ function App() {
       <Container maxWidth="sm">
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
-          Contact us today for a free quote:  
+          We are underconstruction. Our site will be up soon.
         </Typography>
         <Copyright />
       </Box>
